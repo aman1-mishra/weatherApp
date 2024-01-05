@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+.main{
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+.card{
+    height:700px;
+    width: 420px;
+    background-color: #fff;
+    padding:20px;
+    border-radius: 20px;
+    position: relative;
+}
+.card input{
+    height:55px;
+    width:280px;
+    border-radius: 100px;
+    background-color: rgba(250, 235, 215, 0.682);
+    border:none;
+    font-size: 25px;
+    padding:5px;
+}
+.card button{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+}
+.icon{
+    font-size: 20px;
+}
+.card img{
+    height:180px;
+    position: absolute;
+    left:25%;
+    top:18%;
+}
+.temprature{
+    position: absolute;
+    top:50%;
+    left:30%;
+}
+.temprature .temp{
+    font-size: 60px;
+}
+.temprature p{
+    font-size: 40px;
+}
+.bottom{
+    width:100%;
+    display: flex;
+    position: absolute;
+    bottom: 10%;
+    align-items: center;
+    justify-content:space-around;
+}
+.bottom .left{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:10px;
+    height:50px;
+}
+.left p{
+    font-size: 20px;
+}
+.left i{
+    font-size: 50px;
+    margin-right: 10px;
+}
+.bottom .right{
+    display: flex;
+    /* margin-left: 50px; */
+   align-items: center;
+   justify-content: center;
+    width:70px;
+    height:40px;
+}
+.right p{
+    font-size: 20px;
+}
+.right i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.right .para{
+    display: block;
+    margin-top: 5px;
+    text-align: center;
+}
